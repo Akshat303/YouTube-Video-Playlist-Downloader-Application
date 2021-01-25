@@ -186,7 +186,8 @@ class YoutubeDownloader():
         self.root.maxsize(500, 270)
         self.root.minsize(500, 270)
         self.root['bg'] = "black"
-        self.root.title('Youtube Video Downloader || Develop by mr_cs.coder')
+        self.root.title(
+            'Youtube Video Downloader | Develop by Akshat srivastav | mr_cs.coder')
 
         self.l1 = Label(self.root, text="Youtube video Downloader", font=(
             'verdana', 15, 'bold'), bg="black", fg="red")
